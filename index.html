@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!----Tailwind-css-CDN-->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-----Font-Family------>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+    <title>Organic Product</title>
+
+    <!---Coustom-Tailwind-css--->
+    <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            body_bg: '#1e1e1e',
+            btn_bg: 'rgba(171, 239, 95, 0.5)',
+            secText: 'rgb(30, 30, 30);',
+            fotText: '#E9E9E9',
+            fot_P_text: '#737373',
+          },
+          backgroundImage: {
+            // 'custom-gradient': 'linear-gradient(to right, #ff7e5f, #feb47b)',
+            'custom-gradient': 'linear-gradient(to right, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%)',
+            'contact-bg': "url('./image/bg.jpg')",
+          },
+          fontFamily: {
+            "fontManrope": ["Manrope", "sans-serif"],
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body>
+    
+</body>
+</html>
